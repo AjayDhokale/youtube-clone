@@ -1,0 +1,1085 @@
+*{
+    font-family: Roboto, Arial;
+}
+body{
+    padding-bottom: 150px;
+    background-color: #414141;
+    
+
+   }
+   /* ------------------------------------------------------------------------------------------ */ 
+    .btn-SUB{
+        background-color: rgb(204, 0, 0);
+        color: white;
+        height: 40px ;
+        width: 150px;
+        font-size: 14px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+        margin: 20px 20px 20px 20px;
+        transition: opacity 0.5s;
+    }
+    
+    .btn-SUB:hover{
+        
+        opacity: 0.7;
+    }
+    .btn-SUB:active{
+        opacity: 0.4;
+    }
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+
+    .btn-JOIN{
+        background-color:  white;
+        color: rgb(6, 95, 212);
+        height: 40px;
+        width: 80px;
+        font-size: 14px;
+        border-style: solid;
+        border-color: rgb(6, 95, 212);
+        border-radius: 4px;
+        border-width: 1px;
+        cursor: pointer;
+        margin: 20px 20px 20px 20px;
+        
+        
+    }
+
+    .btn-JOIN:hover{
+        background-color: rgb(6, 95, 212);
+        color: white;
+        transition: background-color 0.6s, color 0.6s;
+    }
+    .btn-JOIN:active{
+        opacity: 0.7;
+    }
+
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+    .btn-TWT{
+        background-color: dodgerblue;
+        font-size: 14px;
+        color: white;
+        font-weight: bold;
+        height: 40px;
+        width: 100px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .btn-TWT:hover{
+        box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.153);
+        transition:box-shadow 0.15s;
+    }
+
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+    .btn-Uber{
+
+        background-color: black ;
+        color: white;
+        height: 40px;
+        width: 120px;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+
+        margin: 20px 20px 20px 20px;
+    }
+    .btn-Uber:hover{
+        opacity: 0.8;
+    }
+
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+    .btn-amazon{
+        background-color: rgb(255, 216, 20);
+        font-size: 14px;
+        height: 40px;
+        width: 200px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        margin: 20px 20px 20px 20px;
+
+    }
+    .btn-amazon:hover{
+        background-color:rgb(245, 205, 3);
+    }
+
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+
+    .btn-bootstrap1{
+        background-color:rgb(121, 82, 179);
+        color: white;
+        height: 40px;
+        width: 120px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .btn-bootstrap1:hover{
+        background-color: rgb(99, 60, 156);
+    }
+
+    .btn-bootstrap2{
+        background-color:rgb(255, 255, 255);
+        color: grey;
+        border-color: rgb(108, 117, 125);
+        height: 40px;
+        width: 120px;
+        cursor: pointer;
+        font-weight: bold;
+        border-radius: 3px;
+        transition: opacity 0.15s, 
+                    color 0.15s;
+    }
+
+    .btn-bootstrap2:hover{
+        background-color: rgb(108, 117, 125);
+        color: white;
+    }
+
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+
+
+    .btn-linkedin1{
+        background-color: rgb(10, 102, 194);
+        font-size: 14px;
+        color: white;
+        font-weight: bold;
+        height: 40px;
+        width: 260px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .btn-linkedin1:hover{
+        background-color: rgb(2, 70, 138);
+    }
+
+    .btn-linkedin2{
+        background-color:  white;
+        color: rgb(10, 102, 194);
+        border-color: rgb(10, 102, 194);
+
+        height: 40px;
+        width: 80px;
+        font-size: 14px;
+        font-weight: bold;
+        border-style: solid;
+      
+        border-radius: 20px;
+        border-width: 1px;
+        cursor: pointer;
+    }
+
+    .btn-linkedin2:hover{
+        background-color: rgb(226, 240, 254);
+        border-width: 2px;
+    }
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+
+    .back-next{
+        margin-left: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 16px;
+    }
+
+    .btn-num{
+        border: none;
+        background-color: white;
+        text-decoration: underline;
+        color: rgb(96, 47, 141);
+    }
+
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+    .stretch{
+        background-color: green;
+        color: white;
+        padding: 10px 30px;
+        border: none;
+        transition: padding 0.5s;
+    }
+
+    .stretch:hover{
+        padding: 15px 40px;
+
+    }
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+    .shadow{
+        background-color: green;
+        color: white;
+        padding: 10px 30px;
+        border: none;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3)  ;
+        margin: 20px;
+    }
+
+    .shadow:active{
+        margin-top: 23px;
+        margin-left: 23px;
+        box-shadow: none;
+    }
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+    .one-two-three{
+        background-color: green;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        transition: padding 0.25s;
+    }
+    .one-two-three:hover{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+    .img1{
+        width: 250px;
+        height: 250px;
+        object-fit: contain;
+        object-position: bottom;
+        border-radius: 15px;
+    }
+    .img2{
+        width: 200px;
+        height: 200px;
+       
+        object-fit: cover;
+        object-position: center;
+    }
+    .img3{
+        width: 200px;
+        height: 200px;
+       border-radius: 200px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+    .search{
+        border-radius: 10px;
+        padding: 10px 20px;
+        border: 1px solid gray;
+        margin-bottom: 40px;
+    }
+
+    .search2{
+        width: 500px;
+        border-radius: 30px;
+        padding: 10px 30px;
+        border: 1px solid gray;
+        margin-bottom: 40px;
+        box-shadow: 2px 2px 5px rgb(139, 124, 124);
+    }
+
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+    .email{
+        width: 460px;
+        height: 30px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .lbl-email{
+        color: rgb(100, 100, 100);
+        font-family: Arial;
+    }
+    .agree{
+        background-color: dodgerblue;
+        color: white;
+        border: none;
+        padding: 15px 180px;
+        border-radius: 50px;
+        font-size: 100%;
+        margin: 20px 0;
+    }
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+    .card{
+        border: 1px solid rgb(230, 219, 219);
+        vertical-align: middle;
+        width: 490px;
+        box-shadow: 3px 3px 4px rgb(210, 194, 194);
+    }
+
+    .img-cat{
+        margin: 15px;
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 25px;
+       
+        vertical-align: middle;
+    }
+
+    .msgbox{
+        width: 250px;
+        vertical-align: middle;
+        border: none;
+        font-size: 18px;
+    }
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+    .google-logo{
+        width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 0;
+       
+    }
+
+    .google-searchbar{
+        display: block;
+        margin-left:auto ;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 50px;
+        height: 40px;
+        width: 600px;
+        border-radius: 50px;
+        border: none;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.253);
+        padding-left: 15px;
+    }
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+    .fname-lname{
+        width: 180px;
+        padding: 10px 20px;
+        border-radius: 8px;
+        border: 1px solid rgba(128, 128, 128, 0.735);
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.148);
+        font-size: 18px;
+        margin-left:1px;
+        margin-bottom: 15px;
+    }
+
+    .email-signup{
+        width: 408px;
+        padding: 10px 20px;
+        border-radius: 8px;
+        border: 1px solid rgba(128, 128, 128, 0.735);
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.148);
+        margin-bottom: 15px;
+    }
+
+    .signup{
+        background-color: dodgerblue;
+        color: white;
+        border: none;
+        font-family: Arial;
+        font-weight: bold;
+        padding: 15px 192px;
+        border-radius: 10px;
+
+        margin-bottom: 100px;
+    }
+
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+    .uber-div{
+        border: 1px solid grey;
+        width: 420px;
+        padding: 5px;
+        display: block;
+        font-family: Arial;
+    }
+    
+    .request-ride{
+        font-size: 40px;
+        margin-bottom: 30px;
+        margin-top: 0;
+        
+    }
+
+    .txt-location-destination{
+        font-size: 15px;
+        padding: 10px;
+        width: 400px;
+        background-color: rgb(240, 240, 240);
+        border: none;
+        margin-bottom: 15px;
+    }
+
+    .btn-request-now{
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 25px; 
+        margin-left: 10px;
+    }
+    
+    .btn-request-now:hover{
+        opacity: 0.7;
+    }
+
+    .btn-schedule{
+        background-color: rgb(240, 240, 240);
+        padding: 10px 25px;
+        border: none;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .btn-schedule:hover{
+        background-color: rgba(133, 133, 133, 0.333);
+    }
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+    .square-div{
+        background-color: red;
+        height: 200px;
+        width: 200px;
+    }
+
+    .circle-div{
+        background-color: green;
+        height: 200px;
+        width: 200px;
+        border-radius: 200px;
+    }
+
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+    .satisfied-div{
+        width: 400px;
+        display: block;
+        border: 1px solid gray;
+        padding: 20px;
+        background-color: aliceblue;
+    }
+
+    .btn-yes-no{
+        margin-top: 20px;
+        background-color: white;
+        border: none;
+        border-radius: 7px;
+    }
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+   .youtube-music{
+    background-color: #151313;
+    padding: 10px 20px;
+    width: 350px;
+   }
+
+  .p-yt-music1{
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+  }
+
+  .p-yt-music2{
+    color: white;
+    font-size: 18px;
+  }
+
+
+
+   /* ------------------------------------------------------------------------------------------ */ 
+    
+
+    .card-addfriend{
+        border: 2px solid rgb(0, 0, 0);
+        width: 200px;
+        padding: 5px;
+        background-color: white;
+        display: inline-block;
+
+    }
+
+    .profile-photo{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .profile-name{
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    .mutual-friends{
+        margin-left: 10px;
+    }
+    .btn-add-friend{
+        margin-left: 10px;
+        background-color: rgb(0, 106, 255);
+        border: none;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+
+    .btn-add-friend:hover{
+        opacity: 0.7;
+    }
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+  
+    .google-logo1{
+        
+        width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+
+    .google-searchbar1{
+        display: block;
+        margin-top: 0;
+        margin-bottom: 50px;
+        height: 40px;
+        width: 600px;
+        border-radius: 50px;
+        border: none;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.253);
+        padding-left: 15px;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .btn-google{
+      
+       text-align: center;
+        
+    }
+
+    .btn-google1{
+        background-color: rgb(245, 245, 245);
+        border: none;
+        font-size: 18px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 50px;
+        
+       display: inline;
+       
+        
+    }
+
+    #btn-google2{
+        margin-left: 20px;
+    }
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+   .div-profile{
+    background-color: white;
+    width: 600px;
+    padding: 5px;
+    border: 4px solid black;
+   }
+
+
+   .div-follow-profile-picture{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: top;
+   }
+
+   .profile-img{
+    width: 100%;
+    height: 100px;
+    border-radius: 50px;
+   }
+
+   .div-follow-profile-info{
+        background-color: white;
+        
+        width: 300px;
+        height: 100px;
+      
+        vertical-align: top;
+        display: inline-block;
+        margin-left: 20px;
+   }
+
+   .follow-inputs1{
+        font-weight: bold;
+        padding: 1px;
+        margin: 6px;
+   }
+   .follow-inputs2{
+    padding: 1px;
+    margin: 6px;
+    
+   }
+   .follow-inputs3{
+    padding: 1px;
+    margin: 6px;
+   }
+
+   .div-follow-button{
+    width: 150px;
+    background-color: white;
+    
+    height: 100px;
+   
+   
+    vertical-align: top;
+    display: inline-block;
+   }
+
+   .follow-btn{
+    background-color: rgb(0, 123, 255);
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+
+    margin: 30px 20px;
+   
+   }
+   .follow-btn:hover{
+    opacity: 0.7;
+   }
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+   .div-yt{
+    background-color: white;
+    padding: 20px ;
+    width: 800px
+   }
+
+   .div-yt-vedio{
+   
+    margin: 10px;
+    padding: 10px;
+   }
+
+   .div-yt-vedio-thumbnail{
+   
+     width: 330px;
+     height: 180px;
+     display: inline-block;
+     vertical-align: top;
+   }
+
+   .thumbnail{
+    width: 100%;
+    height: 100%;
+ 
+   }
+
+   .div-yt-vedio-info{
+   
+    width: 350px;
+    height: 180px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 10px;
+   }
+
+   .vedio-info-header{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+   }
+
+   .vedio-info-sub{
+    font-size: 22px;
+    color: grey;
+    margin-bottom: 0;
+    margin-top: 10px;
+   }
+
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+   
+   .card-addfriend{
+    border: 2px solid rgb(0, 0, 0);
+    width: 200px;
+    padding: 5px;
+    background-color: white;
+    display: inline-block;
+    }
+
+    .profile-photo{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .profile-name{
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-bottom: 0px;
+    }
+
+    .div-mutual-friends{
+        margin-top: 0px;
+    }
+
+    .mutual-profile-photo{
+        width: 25px;
+        height: 25px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 20px;
+        display: inline-block;
+        margin-left: 0px;
+        vertical-align: middle;
+        border: 1px solid black;
+    
+    }
+
+    #left-image{
+        margin-right: -13px
+    }
+
+    .mutual-friends{
+        margin-left: 5px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .btn-add-friend{
+        margin-left: 17%;
+        background-color: rgb(0, 106, 255);
+        border: none;
+        padding: 10px 20px;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 20px;
+
+    }
+
+    .btn-add-friend:hover{
+        opacity: 0.7;
+    }
+
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+    .div-grid-main{
+        display: grid;
+        grid-template-columns: 200px 75px;
+    }
+    .div-grid1{
+        background-color: lightblue;
+    }
+    .div-grid2{
+        background-color: lightpink;
+    }
+
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+    .div-grid-main{
+        display: grid;
+        grid-template-columns: 200px 200px 200px ;
+        column-gap: 20px;
+        background-color: rgb(172, 172, 172);
+        padding: 10px;
+        width: 650px
+    }
+
+    .div-grid-profile{
+      background-color: white;
+
+    }
+
+    .grid-profile-img{
+        width: 200px;
+        height: 200px;
+        border: 1px solid grey;
+    }
+
+    .profile-name{
+        font-weight: bold;
+    }
+
+    .grid-mutual{
+       display: grid;
+       grid-template-columns: 35px 1fr;
+       align-items: center;
+    }
+    .mutual-img{
+        width: 20px;
+        height: 20px;
+        margin-left: 5px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 40px;
+    }
+
+    .add-friend{
+        background-color: rgb(0, 102, 255);
+        color: white;
+        border: none;
+        border-radius: 7px;
+        padding: 10px 20px;
+        align-items: center;
+        margin: 10px 35px;
+
+    }
+
+    .add-friend:hover{
+        opacity: 0.7;
+    }
+
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+    .div-flexbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .notifications{
+        background-color: rgb(49, 109, 245);
+        color: white;
+        font-weight: bold;
+        padding: 5px 15px;
+        border-radius: 20px;
+
+    }
+
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+    .flex-profile-photo{
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        margin-right: 20px;
+    }
+
+    .div-profile-flex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .btn-flex-follow{
+        background-color: rgb(0, 102, 255);
+        color: white;
+        font-weight: 500;
+        border: none;
+        border-radius: 10px;
+        padding: 15px 30px;
+        font-size: 18px;
+    }
+
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+   .div-flex-navbar{
+        background-color: rgb(120,82,178); 
+        border: 1px solid grey; 
+        padding: 20px;
+        
+        border-radius: 10px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        padding-left: 15px;
+        padding-right: 15px;
+
+      
+   }
+
+   .div-flex-home{
+   color: white;
+   font-weight: 600;
+   }
+
+   .searchbar-flex{
+    width: 500px;
+    flex: 1;
+    border-radius: 20px;
+    border: 1px solid grey;
+    height: 30px;
+    padding: 5px 20px ;
+   }
+
+   .btn-flex-download{
+    
+    background-color: transparent;
+    border: 3px solid white;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 600;
+   
+   }
+
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+   .inboxes{
+    color: gray;
+    font-size: medium;
+   }
+
+   .div-flex-msg{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: 0;
+    padding-right: 0;
+    width: 600px;
+   }
+
+
+   .profile-photo-flex{
+        width: 90px;
+        height: 90px;
+        border-radius: 60px;
+        margin-right: 20px;
+        object-fit: cover;
+        object-position: center;
+   }    
+
+    .div-flex-msg-name-time{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 6px;
+    }
+
+    .div-flex-msg-name{
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .div-flex-msg-time{
+        font-size: 20px;
+        margin-right: -20px;
+        color: gray;
+        
+    }
+
+    .div-flex-name-info1{
+        font-weight: bold;
+        font-size: 21px;
+        margin-bottom: 5px;
+    }
+
+    .div-flex-msg-content{
+        color: grey;
+    }
+
+    .div-flex-msg-all{
+
+        margin-left: 10px;
+    }
+
+
+
+   /* ------------------------------------------------------------------------------------------ */ 
+
+
+   .div-flex-row{
+        display: flex;
+        flex-direction: row;
+        vertical-align: middle;
+    }
+
+    
+   .div-name-id{
+        display: flex;
+        flex-direction: row;
+        vertical-align: middle;
+    }
+
+
+   .div-name{
+        color: black;
+        font-weight: bold;
+        margin-right: 2px; 
+   }
+
+   .div-id{
+        color: rgba(44, 82, 113, 0.504);
+        font-weight: bold;
+   }
